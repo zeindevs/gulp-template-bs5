@@ -9,6 +9,38 @@
 - Styling with `sass`
 - JavasScript Bundler with `rollup`
 
+## Scripts Usage
+
+### Start Development
+
+```sh
+npm start
+pnpm start
+yarn start
+```
+
+### Build
+
+```sh
+npm run build
+pnpm build
+yarn build
+```
+
+### Prettier
+
+```sh
+# for ejs in src
+npm run pretty
+pnpm pretty
+yarn pretty
+
+# for html in dist
+npm run pretty:dist
+pnpm pretty:dist
+yarn pretty:dist
+```
+
 ## License
 
 ```

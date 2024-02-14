@@ -5,9 +5,14 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "pretty": "prettier --plugin=prettier-plugin-ejs -w src/**/*.ejs"
+    "build": "gulp build",
+    "pretty": "prettier --plugin=prettier-plugin-ejs -w src/**/*.ejs",
+    "pretty:dist": "cd dist && prettier --write ."
   },
-  "keywords": [],
+  "keywords": [
+    "Gulp",
+    "Bootstrap5"
+  ],
   "author": "zeindevs",
   "license": "MIT",
   "devDependencies": {
